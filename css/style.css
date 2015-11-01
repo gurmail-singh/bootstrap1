@@ -61,7 +61,6 @@ section#title-bar{
 }
 section#title-bar h1{
 	margin-bottom:20px;
-	//--margin-left: 300px;
 
 }
 footer{
@@ -83,4 +82,18 @@ footer a {
 
 footer p{
 	float: right;
+}
+
+/* MEDIA QUEIES */
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+	
+}
+
+@media(max-width: 768px) and (max-width: 990px){
+	body {display:none !Important}
 }
